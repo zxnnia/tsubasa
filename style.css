@@ -1,0 +1,58 @@
+html {
+    background-color: #000000;
+    color: #dfdfdf;
+}
+
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    margin-bottom: 200px;
+}
+
+h1 {
+    font-size: 2.25em;
+    margin-bottom: 0;
+}
+
+nav {
+    font-size: 1.25em;
+}
+
+p {
+    text-indent: 0;
+}
+
+header,article {
+    max-width: 85%;
+    padding: auto;
+    margin: auto;
+}
+
+a:link {
+    color: #4ca9c5;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b46d95;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    color: #dedede;
+    text-decoration: none;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none none solid none;
+}
+
+/* stolen from jacob, mobile user thing? */
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
